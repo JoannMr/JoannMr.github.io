@@ -39,51 +39,28 @@ a{
     color: blue;
 }
 
-.question1 {
-    margin-left: 130px;
+.question {
+    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 50px;
-    margin-right: 50px;
     text-align: center;
 }
 
-
-.question2 {
-    margin-left: 130px;
-    margin-top: 150px;
-    margin-right: 50px;
-    text-align: center;
+.img-menu {
+    display: block;
+    width:100%;
+    margin: 0 auto;
 }
 
-.imagenbing {
+.imagenBuscador {
     width: 150px; 
     height: auto;
-    margin-left: 250px;
-    margin-top: 80px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
 
-.imagengoogle {
-    width: 150px; 
-    height: auto;
-    margin-left: 250px;
-    margin-top: 80px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-}
-
-.imagenyahoo {
-    width: 150px; 
-    height: auto;
-    margin-left: 250px;
-    margin-top: 80px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-}
 
 .imagenbuscador {
-    width: 300px; 
-    margin-left: 600px;
     margin-top: 120px;
     margin-bottom: 100px;
 } 
@@ -114,6 +91,12 @@ a{
 
 .img-fluid{
     width: 100%;
+}
+
+.img-buscador{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
 }
 
 .text-title{
@@ -364,6 +347,10 @@ a{
     z-index: 0;
 }
 
+.bgwhite{
+    background-color: white;
+}
+
 .post-footer .post-author .author-avatar{
     margin: 0 auto;
     margin-bottom: 1em;
@@ -443,3 +430,6 @@ a{
 }
 
 
+.comment{
+background-color:var(--light);border-radius:10px;padding:10px;
+}
