@@ -88,10 +88,6 @@ a{
     background-color: var(--light);
 }
 
-.container{
-    text-align: center;
-}
-
 .img-fluid{
     width: 100%;
 }
